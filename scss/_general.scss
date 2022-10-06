@@ -1,7 +1,59 @@
 $font: 'Kurale', serif;
 $sec-font: 'Open Sans', sans-serif;
 
-body {
-    background-color:black;
-    font-family: $sec-font;
+$color: #000;
+$white: #fff;
+$yellow: #E8C300;
+
+$text: 18px;
+$wrap: 1470px;
+$container: 1200px;
+$mc: 0 auto;
+
+@mixin flex($jc, $ai) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: $jc;
+    align-items: $ai;
 }
+body {
+    background: $white;
+    font-family: $sec-font;
+    color: $color;
+    font-size: $text;
+}
+
+.wrapper {
+    max-width: $wrap;
+    margin: $mc;
+    padding: 0 15px;
+}
+
+.container {
+    max-width: $container;
+    margin: $mc;
+}
+
+.header__menu {
+}
+.header-menu__list {
+}
+.header-menu__item {
+}
+.logo {
+}
+.container-center {
+}
+.time-work {
+}
+.header__content {
+}
+.header__title {
+}
+.header__btns {
+}
+.arrow__down {
+}
+.socials {
+}
+   
